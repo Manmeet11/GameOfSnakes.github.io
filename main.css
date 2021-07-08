@@ -1,0 +1,72 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.main{
+    background: url(bn.jpg);
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+
+}
+.snake{
+    color: rgb(202, 112, 230);
+    position: absolute;
+    top: 249px;
+    right: 87px;
+    left: 64px;
+    font-size: 82px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+/*.button{
+    position: absolute;
+     top: 343px;
+     color: white;
+     font-size: 35px;
+     text-align: center;
+    align-items: center;
+    justify-content: center;
+    right: 10px;
+    left: 718px;
+    border-radius: 16px;
+    background: #6453ef;
+    border: 2px solid white;
+    width: 91px;
+    height: 43px;
+}*/
+
+a:link {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    font-size: 35px;
+    top: 343px;
+    right: 10px;
+    left: 718px;
+    border-radius: 16px;
+    background: #6453ef;
+    border: 2px solid white;
+    width: 91px;
+    height: 43px;
+  }
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
